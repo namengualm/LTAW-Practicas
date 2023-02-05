@@ -1,0 +1,44 @@
+
+a) Escribe el documento en SGML que representa esa estructura
+
+<!DOCTYPE Universidad SYSTEM "Universidad.dtd">
+<Universidad>
+    <Escuela>
+        <Nombre> ETSI Telecomunicaciones</Nombre>
+        <Grado>
+            <Nombre>Ingenienria en Sistemas Audiovisuales y Multimedia </Nombre>
+            <Asignatura> LTAW </Asignatura>
+            <Asignatura> CSAAI </Asignatura>
+            <Asignatura> ASA II </Asignatura>
+        </Grado>
+        <Grado>
+            <Nombre>Ingenieria en Robótica Software</Nombre>
+            <Asignatura> AC </Asignatura>
+        </Grado>
+    </Escuela>
+</Universidad>
+
+b) ¿Cuántos elementos contenedores hay? Indica sus nombres
+
+Nivel 0: Universidad
+Nivel 1: Escuela
+Nivel 2: Nombre, Grado, Grado
+Nivel 3: Nombre, Asignatura, Asignatura, Asignatura, Nombre, Asignatura
+
+11 contenedores en total
+
+c) ¿Cuantos elementos terminales hay? Indica sus valores
+
+Los que no tienen más elementos, "Nombre" y "Asignatura" 
+
+Nivel 3: ETSI Telecomunicaciones
+Nivel 4: Ingenienria en Sistemas Audiovisuales y Multimedia. LTAW, CSAAI, ASA II
+         Ingenieria en Robótica Software, AC
+
+7 elementos terminales en total
+
+d) ¿Cuantos elementos hay en el nivel 3?. Escribe sus nombres
+
+Nivel 3: ETSI Telecomunicaciones, Nombre, Asignatura, Asignatura, Asignatura, Nombre, Asignatura
+
+

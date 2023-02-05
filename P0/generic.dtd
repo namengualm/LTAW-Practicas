@@ -1,0 +1,51 @@
+a) Escribe el documento en SGML que representa esa estructura
+
+    <!DOCTYPE Generic SYSTEM "generic.dtd">
+
+    <Generic>
+    <Contenedor>
+        Texto 5
+        <Contendor>
+        <Contenedor>
+            <Contenedor>
+            Texto 1
+            </Contenedor>
+            Texto 2
+        </Contenedor>
+        Texto 3
+        <Contenedor>
+            Texto 4
+        </Contenedor>
+        </Contenedor>
+    </Contenedor>
+    </Generic>
+
+b) Cuantos elementos hay en total? 11 elementos
+
+    Generic, Contendor, Texto 5, Contenedor, Contenedor, Contenedor, Texto 1, Texto 2, Texto 3, Contenedor, Texto 4 
+
+
+c) ¿Cuantos elementos terminales hay?. Indica sus valores
+
+    Nivel 2: Texto 5
+    Nivel 3: Texto 3
+    Nivel 4: Texto 2 y Texto 4
+    Nivel 5: Texto 1
+
+    Un total de 5 elementos terminales
+
+d) ¿Cuantos elementos no terminales hay?. Indica cuántos hay en cada nivel
+
+    Nivel 0: Generic
+    Nivel 1: Contenedor
+    Nivel 2: Contenedor
+    Nivel 3: Contenedor, Contenedor 
+    Nivel 4: Contenedor
+
+    Un total de 6 elementos no terminales
+
+e) ¿Cuantos elementos hay en el nivel 5?.Indica sus nombres
+
+    Nivel 5: Texto 1
+
+    En el nivel 5 hay 1 elemento
