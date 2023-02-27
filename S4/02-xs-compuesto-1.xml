@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Comienzo del esquema -->
+<tienda>
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xsi:noNamespaceDchemaLocation="02-xs-compuesto-1.xsd">
+
+  <producto>
+    Este es un producto
+  </producto>
+</tienda>

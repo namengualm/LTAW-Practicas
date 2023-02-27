@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Utilización de dos espacion de nombres para dos etiquetas 
+producto que tienen estructuras diferentes -->
+
+<tienda xmlns:t1="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:t2="https://github.com/namengualm/LTAW-Practicas">
+
+    <t1:producto>
+        Un producto
+    </t1:producto>
+
+    <!-- Esta etiqueta producto tiene otra estructura-->
+
+    <t2:producto>
+        <nombre>Otro Producto</nombre>
+        <origen>España</origen>
+    </t2:producto>
+
+</tienda>
