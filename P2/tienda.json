@@ -1,0 +1,81 @@
+[
+    {
+        "usuarios": [
+            {
+                "user": "root",
+                "nombre": "Root Root Root",
+                "email": "root@github.com",
+                "password": "root"
+            },
+            {
+                "user": "namengualm",
+                "nombre": "Noelia Amengual Mudarra",
+                "email": "namengualm@github.com",
+                "password": "namengualm"
+            }
+        ]
+    },
+    {
+        "productos": [
+            {
+                "nombre": "Viaje Ibiza y Formentera",
+                "descripcion": "Pack Viaje a Ibiza con 2 días en Formentera",
+                "precio": "555€",
+                "stock": 10
+                     
+            },
+            {
+                "nombre": "Viaje solo Ibiza",
+                "descripcion": "Pack Viaje solo a Ibiza",
+                "precio": "450€",
+                "stock": 10
+                
+            },
+            {
+                "nombre": "Viaje a Mallorca 1",
+                "descripcion": "Pack Viaje a Mallorca 5 días",
+                "precio": "600€",
+                "stock": 10
+                
+            },
+            {
+                "nombre": "Viaje a Mallorca 2",
+                "descripcion": "Pack Viaje a Mallorca 5 días con Excursión a Cabrera",
+                "precio": "650€",
+                "stock": 10
+                
+            },
+            {
+                "nombre": "Viaje a Menorca",
+                "descripcion": "Pack Viaje a Menorca",
+                "precio": "500€",
+                "stock": 10
+                
+            },
+        ]
+    },
+   
+    {
+        "pedidos": [
+            {
+                "user": "root",
+                "dirección envío": "Avenida Rey Juan Carlos , 105",
+                "num tarjeta": "987654321",
+                "productos": [
+                    "Viaje a Ibiza y Formentera",
+                    "Viaje a Ibiza y Formentera"
+                ]
+            },
+            {
+                "user": "namengualm",
+                "dirección envío": "Calle Mostoles, 79",
+                "num tarjeta": "123456789",
+                "productos": [
+                    "Viaje a Mallorca 2",
+                    "Viaje a Mallorca 2",
+                    "Viaje a Mallorca 2"
+                ]
+            }
+        ]
+    }
+]

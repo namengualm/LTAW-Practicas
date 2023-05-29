@@ -1,0 +1,104 @@
+
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+#cabecera{
+    margin-top: 35px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+    font: small-caps 100%/200% serif;
+    font-size: 30px;
+    font-style: arial;
+    color: black;
+}
+
+#inicio{
+    text-align:center;
+    background-color:transparent;
+    font-size: 2px;
+    font-family: arial;
+}
+
+button{
+    cursor: pointer;
+    text-align: center;
+    margin: 5px; 
+    padding: 0;
+    color:rgb(41, 40, 40);
+    font-weight: bold;
+    font-size: 1em; 
+    border: none;
+    border-color: transparent;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: arial;
+}
+
+button:hover{
+    background-color: blue;
+    color: rgb(0, 217, 255);
+}
+
+h2{
+    margin-top: 40px;
+    text-align:center;
+    background-color:transparent;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+h3{
+    margin-top: 40px;
+    text-align:center;
+    background-color:transparent;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 7, 9);
+}
+h4{
+    margin-top: 40px;
+    text-align:center;
+    background-color:transparent;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 7, 9);
+}
+
+#selec {
+    margin-top: 50px;
+    text-align:center;
+    background-color:transparent;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+.cesta{
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    border: none;
+    border-color: transparent;
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
